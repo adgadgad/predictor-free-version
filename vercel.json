@@ -1,5 +1,12 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "env": {
+      "FLASK_ENV": "production"
+  },
+  "routes": [
+      
+      {
+          "src": "/(.*)",
+          "dest": "/index.html"
+      }
   ]
 }
