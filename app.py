@@ -190,5 +190,4 @@ def get_predictions():
         'tomorrow_price': tomorrow_price
     } 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
